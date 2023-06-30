@@ -13,11 +13,7 @@ plugins=(... scw)
 ## Usage
 
 ```shell
-Usage
-Copy and paste the code into your Zsh shell configuration file (e.g., .zshrc).
-Source the updated configuration file or restart your shell.
 
-Functions
 sgp
 Description: Displays the currently active Scaleway profile.
 Usage: sgp
@@ -48,7 +44,10 @@ Description : Update your Scaleway CLI version if needed.
 ```
 
 Customizations
-ZSH_THEME_SCW_PROFILE_PREFIX and ZSH_THEME_SCW_PROFILE_SUFFIX
+
+```ZSH_THEME_SCW_PROFILE_PREFIX``` and ```ZSH_THEME_SCW_PROFILE_SUFFIX```
+
+```
 Description: Allows customization of the profile prefix and suffix displayed in the shell prompt.
 Modify these variables to change the appearance of the profile information in the prompt.
 SHOW_SCW_PROMPT
@@ -56,14 +55,13 @@ Description: Controls whether to display the Scaleway profile information in the
 Set this variable to false if you don't want to show the profile information.
 Autocompletion
 The code also includes Zsh autocompletion for the ssp command. When you type ssp and press Tab, it will suggest available profile names based on the configured Scaleway profiles.
+```
 
 Scaleway CLI Autocompletion
+
 If Scaleway CLI autocompletion is not already loaded, the code automatically loads the autocompletion script for the scw command. This enables autocompletion for all Scaleway CLI commands.
 
 Make sure to have the Scaleway CLI installed and initialized before using the autocompletion feature.
-
-Note: Ensure that you have sourced the Zsh shell configuration file after adding or modifying the code.
-
 
 ## Contributing
 
