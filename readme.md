@@ -1,7 +1,7 @@
 # Foobar
 This plug-in adds functions and configurations to manage Scaleway profiles and display profile information in the shell prompt.
 
-##Prerequisites
+## Prerequisites
 Scaleway CLI (scw) should be installed. You can install it from https://github.com/scaleway/scaleway-cli.
 Copy and paste the code into your Zsh shell configuration file (e.g., .zshrc).
 Source the updated configuration file or restart your shell.
