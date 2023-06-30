@@ -13,7 +13,7 @@ plugins=(... scw)
 ## Usage
 
 | Commands | Description          |
-| :---------------: |:---------------:|
+| :---------------: |:---------------|
 | scw_upgrade  | Update your Scaleway CLI version if needed.      | 
 | sgp  |   Displays the currently active Scaleway profile        |
 | ssp <profilename> |      Sets the active Scaleway profile based on the provided profile name, If no profile name is provided, it clears the active profile       |
