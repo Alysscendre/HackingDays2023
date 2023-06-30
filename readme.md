@@ -12,36 +12,15 @@ plugins=(... scw)
 
 ## Usage
 
-```shell
-
-sgp
-Description: Displays the currently active Scaleway profile.
-Usage: sgp
-
-ssp
-Description: Sets the active Scaleway profile based on the provided profile name.
-Usage: ssp [profile_name]
-If no profile name is provided, it clears the active profile.
-
-scw_profiles
-Description: Retrieves a list of available Scaleway profiles.
-Usage: scw_profiles
-
-scw_config_path
-Description: Returns the path to the Scaleway CLI configuration file (config.yaml).
-Usage: scw_config_path
-
-_scw_profiles
-Description: Autocompletion function for ssp command. It retrieves available Scaleway profiles for autocompletion.
-Usage: Automatically invoked during command autocompletion.
-
-scw_prompt_info
-Description: Generates the string representation of the active Scaleway profile to display in the shell prompt.
-Usage: Automatically invoked during shell prompt rendering.
-
-scw_upgrade 
-Description : Update your Scaleway CLI version if needed. 
-```
+| Commands | Description          |
+| :---------------: |:---------------:|
+| scw_upgrade  | Update your Scaleway CLI version if needed.      | 
+| sgp  |   Displays the currently active Scaleway profile        |
+| ssp <profilename> |      Sets the active Scaleway profile based on the provided profile name, If no profile name is provided, it clears the active profile       |
+| scw_profiles  | Retrieves a list of available Scaleway profiles.          | 
+| scw_config_path  | Returns the path to the Scaleway CLI configuration file (config.yaml)             |
+| _scw_profiles  | Autocompletion function for ssp command. It retrieves available Scaleway profiles for autocompletion. ( Automatically invoked during command autocompletion)         | 
+| scw_prompt_info  | Generates the string representation of the active Scaleway profile to display in the shell prompt ( Automatically invoked during shell prompt rendering. )            |
 
 ## Customizations
 
