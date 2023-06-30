@@ -25,6 +25,9 @@ plugins=(... scw)
 | scw_profiles  | Displays a list of available Scaleway profiles.          | 
 | scw_config_path  | Returns the path to the Scaleway CLI configuration file (config.yaml).             |
 
+In addition to setting the `SCW_PROFILE` environment variable, `ssp` also sets the following variables: `SCW_DEFAULT_ORGANIZATION_ID, SCW_DEFAULT_PROJECT_ID, SCW_DEFAULT_REGION, SCW_DEFAULT_ZONE, SCW_API_URL`.
+Additionnally, if `SCW_EXPORT_TOKENS` is set to "true", `SCW_ACCESS_KEY` and `SCW_SECRET_KEY` are also exported.
+
 
 ## Customizations
 
