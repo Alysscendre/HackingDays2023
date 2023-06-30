@@ -22,7 +22,7 @@ plugins=(... scw)
 | scw_upgrade  | Update your Scaleway CLI version if needed.      | 
 | sgp  |   Displays the current Scaleway profile.       |
 | ssp <profilename> |      Sets the Scaleway profile. If no profile name is provided, fallback to the curent active profile set in your configuration file.     |
-| scw_profiles  | Retrieves a list of available Scaleway profiles.          | 
+| scw_profiles  | Displays a list of available Scaleway profiles.          | 
 | scw_config_path  | Returns the path to the Scaleway CLI configuration file (config.yaml).             |
 
 
