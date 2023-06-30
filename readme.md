@@ -25,12 +25,9 @@ plugins=(... scw)
 
 | Commands | Description          |
 | :---------------: |:---------------|
-| SHOW_SCW_PROMT  | Allows customization of the profile prefix and suffix displayed in the shell prompt.
-Modify these variables to change the appearance of the profile information in the prompt.    | 
-| ZSH_THEME_SCW_PROFILE_PREFIX  |  Controls whether to display the Scaleway profile information in the shell prompt.
-Set this variable to false if you don't want to show the profile information.       |
-| ZSH_THEME_SCW_PROFILE_SUFFIX |   Controls whether to display the Scaleway profile information in the shell prompt.
-Set this variable to false if you don't want to show the profile information.      |
+| SHOW_SCW_PROMT  | Allows customization of the profile prefix and suffix displayed in the shell prompt. Modify these variables to change the appearance of the profile information in the prompt.    | 
+| ZSH_THEME_SCW_PROFILE_PREFIX  |  Controls whether to display the Scaleway profile information in the shell prompt.Set this variable to false if you don't want to show the profile information.       |
+| ZSH_THEME_SCW_PROFILE_SUFFIX |   Controls whether to display the Scaleway profile information in the shell prompt.Set this variable to false if you don't want to show the profile information.      |
 
 
 ## Scaleway CLI Autocompletion
