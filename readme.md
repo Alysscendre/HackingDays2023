@@ -1,16 +1,21 @@
 # SCW
-This plug-in adds functions and configurations to manage Scaleway profiles and display profile information in the shell prompt.
+
+This plugin adds functions to manage your Scaleway profile
+
 
 ## Prerequisites
+
 Scaleway CLI (scw) should be installed. You can install it from https://github.com/scaleway/scaleway-cli.
+
 Copy and paste the code into your Zsh shell configuration file (e.g., .zshrc).
 Source the updated configuration file or restart your shell.
+
 
 ```bash
 plugins=(... scw)
 ```
 
-## Usage
+## Functions
 
 | Commands | Description          |
 | :---------------: |:---------------|
@@ -33,14 +38,5 @@ plugins=(... scw)
 ## Scaleway CLI Autocompletion
 
 If Scaleway CLI autocompletion is not already loaded, the code automatically loads the autocompletion script for the scw command. This enables autocompletion for all Scaleway CLI commands.
-
-Make sure to have the Scaleway CLI installed and initialized before using the autocompletion feature.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 
