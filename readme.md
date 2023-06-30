@@ -1,4 +1,4 @@
-# Foobar
+# Footbar
 This plug-in adds functions and configurations to manage Scaleway profiles and display profile information in the shell prompt.
 
 ## Prerequisites
