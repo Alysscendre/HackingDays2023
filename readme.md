@@ -43,7 +43,7 @@ scw_upgrade
 Description : Update your Scaleway CLI version if needed. 
 ```
 
-##Customizations
+## Customizations
 
 ```ZSH_THEME_SCW_PROFILE_PREFIX``` and ```ZSH_THEME_SCW_PROFILE_SUFFIX```
 
@@ -51,13 +51,14 @@ Description : Update your Scaleway CLI version if needed.
 Description: Allows customization of the profile prefix and suffix displayed in the shell prompt.
 Modify these variables to change the appearance of the profile information in the prompt.
 SHOW_SCW_PROMPT
+
 Description: Controls whether to display the Scaleway profile information in the shell prompt.
 Set this variable to false if you don't want to show the profile information.
 Autocompletion
 The code also includes Zsh autocompletion for the ssp command. When you type ssp and press Tab, it will suggest available profile names based on the configured Scaleway profiles.
 ```
 
-#Scaleway CLI Autocompletion
+## Scaleway CLI Autocompletion
 
 If Scaleway CLI autocompletion is not already loaded, the code automatically loads the autocompletion script for the scw command. This enables autocompletion for all Scaleway CLI commands.
 
